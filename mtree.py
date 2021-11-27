@@ -248,7 +248,7 @@ class MTree(object):
             #(the paper prunes after each entry insertion, instead whe could
             #prune once after handling all the entries of a node)
 
-        return nn.result_list()
+        return nn.elems
 
 
 NNEntry = collections.namedtuple('NNEntry', 'obj dmax')
